@@ -1,0 +1,943 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+ACCLASS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static ACCLASS: u8 = 1;$/;"	c
+AC_QUANT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static AC_QUANT: [i16; 128] = [$/;"	c
+ALPHA_BIASSHIFT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const ALPHA_BIASSHIFT: i32 = 10;            \/\/ alpha starts at 1$/;"	c
+APP0	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static APP0: u8 = 0xE0;$/;"	c
+BETA	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const BETA: f64 = 1.0 \/ GAMMA;$/;"	c
+BETAGAMMA	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const BETAGAMMA: f64 = BETA * GAMMA;$/;"	c
+BITMAPCOREHEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPCOREHEADER_SIZE: u32 = 12;$/;"	c
+BITMAPINFO	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	struct BITMAPINFO {$/;"	s
+BITMAPINFOHEADER	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	struct BITMAPINFOHEADER {$/;"	s
+BITMAPINFOHEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPINFOHEADER_SIZE: u32 = 40;$/;"	c
+BITMAPV2HEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPV2HEADER_SIZE: u32 = 52;$/;"	c
+BITMAPV3HEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPV3HEADER_SIZE: u32 = 56;$/;"	c
+BITMAPV4HEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPV4HEADER_SIZE: u32 = 108;$/;"	c
+BITMAPV5HEADER_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const BITMAPV5HEADER_SIZE: u32 = 124;$/;"	c
+BI_RGB	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const BI_RGB: DWORD = 0;$/;"	c
+BMP	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^const BMP: BenchDef<'static> = BenchDef {dir: &["bmp", "images"], format: ImageFormat::BMP};$/;"	c
+BMPDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^pub struct BMPDecoder<R> {$/;"	s
+BMPHeaderType	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^enum BMPHeaderType {$/;"	g
+BOOL	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type BOOL = c_int;$/;"	T
+BYTE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type BYTE = u8;$/;"	T
+B_DC_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_DC_PRED: i8 = 0;$/;"	c
+B_HD_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_HD_PRED: i8 = 8;$/;"	c
+B_HE_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_HE_PRED: i8 = 3;$/;"	c
+B_HU_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_HU_PRED: i8 = 9;$/;"	c
+B_LD_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_LD_PRED: i8 = 4;$/;"	c
+B_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_PRED: i8 = 4;$/;"	c
+B_RD_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_RD_PRED: i8 = 5;$/;"	c
+B_TM_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_TM_PRED: i8 = 1;$/;"	c
+B_VE_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_VE_PRED: i8 = 2;$/;"	c
+B_VL_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_VL_PRED: i8 = 7;$/;"	c
+B_VR_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const B_VR_PRED: i8 = 6;$/;"	c
+BenchDef	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^struct BenchDef<'a> {$/;"	s
+BiLevel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub struct BiLevel;$/;"	s
+BitBlt	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn BitBlt(hdcDest: HDC, nXDest: c_int, nYDest: c_int, nWidth: c_int, nHeight: c_int,$/;"	f
+BitReader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^pub trait BitReader: Read {$/;"	t
+BitWriter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^pub trait BitWriter: Write {$/;"	t
+Bitfield	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^struct Bitfield {$/;"	s
+Bitfields	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^struct Bitfields {$/;"	s
+Blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub trait Blend {$/;"	t
+BoolReader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^struct BoolReader {$/;"	s
+ByteOrder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^pub enum ByteOrder {$/;"	g
+CAPTUREBLT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const CAPTUREBLT: u32 = 0x40000000;$/;"	c
+CFDataGetBytePtr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CFDataGetBytePtr(theData: CFDataRef) -> *const u8;$/;"	f
+CFDataGetLength	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CFDataGetLength (theData: CFDataRef) -> CFIndex;$/;"	f
+CFDataRef	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CFDataRef = *const u8; \/\/ *const CFData$/;"	T
+CFIndex	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CFIndex = libc::c_long;$/;"	T
+CFRelease	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CFRelease(cf: *const libc::c_void);$/;"	f
+CGDataProviderCopyData	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGDataProviderCopyData(provider: CGDataProviderRef) -> CFDataRef;$/;"	f
+CGDataProviderRef	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGDataProviderRef = *mut u8; \/\/ *mut CGDataProvider$/;"	T
+CGDirectDisplayID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGDirectDisplayID = libc::uint32_t;$/;"	T
+CGDisplayCount	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGDisplayCount = libc::uint32_t;$/;"	T
+CGDisplayCreateImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGDisplayCreateImage(displayID: CGDirectDisplayID) -> CGImageRef;$/;"	f
+CGDisplayNoErr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const CGDisplayNoErr: CGError = kCGErrorSuccess;$/;"	c
+CGError	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGError = libc::int32_t;$/;"	T
+CGFloat	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGFloat = libc::c_double;$/;"	T
+CGFloat	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGFloat = libc::c_float;$/;"	T
+CGGetActiveDisplayList	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGGetActiveDisplayList(max_displays: libc::uint32_t,$/;"	f
+CGImageGetBitsPerComponent	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetBitsPerComponent(image: CGImageRef) -> libc::size_t;$/;"	f
+CGImageGetBitsPerPixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetBitsPerPixel(image: CGImageRef) -> libc::size_t;$/;"	f
+CGImageGetBytesPerRow	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetBytesPerRow(image: CGImageRef) -> libc::size_t;$/;"	f
+CGImageGetDataProvider	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetDataProvider(image: CGImageRef) -> CGDataProviderRef;$/;"	f
+CGImageGetHeight	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetHeight(image: CGImageRef) -> libc::size_t;$/;"	f
+CGImageGetWidth	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageGetWidth (image: CGImageRef) -> libc::size_t;$/;"	f
+CGImageRef	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type CGImageRef = *mut u8; \/\/ *mut CGImage$/;"	T
+CGImageRelease	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CGImageRelease(image: CGImageRef);$/;"	f
+CHANNELS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const CHANNELS: usize = 4;$/;"	c
+CHROMABLUEID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static CHROMABLUEID: u8 = 2;$/;"	c
+CHROMADESTINATION	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static CHROMADESTINATION: u8 = 1;$/;"	c
+CHROMAREDID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static CHROMAREDID: u8 = 3;$/;"	c
+COEFF_BANDS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static COEFF_BANDS: [u8; 16] = [0, 1, 2, 3, 6, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7];$/;"	c
+COEFF_PROBS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static COEFF_PROBS: TokenProbTables = [$/;"	c
+COEFF_UPDATE_PROBS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static COEFF_UPDATE_PROBS: TokenProbTables = [$/;"	c
+CONST1	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/transform.rs	/^static CONST1:$/;"	c
+CONST2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/transform.rs	/^static CONST2:$/;"	c
+CONST_BITS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static CONST_BITS: i32 = 13;$/;"	c
+Chunker	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^enum Chunker<'a> {$/;"	g
+Code	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^type Code = u16;$/;"	T
+Color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    type Color = Luma<u8>;$/;"	T
+Color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    type Color = Rgba<u8>;$/;"	T
+Color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    type Color;$/;"	T
+Color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^type Color = Quad<i32>;$/;"	T
+ColorMap	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub trait ColorMap {$/;"	t
+ColorMap	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^struct ColorMap {$/;"	s
+ColorType	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub enum ColorType {$/;"	g
+Component	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^struct Component {$/;"	s
+CompressionMethod	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^enum CompressionMethod {$/;"	g
+ConvertBuffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub trait ConvertBuffer<T> {$/;"	t
+CreateCompatibleBitmap	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CreateCompatibleBitmap(hdc: HDC, nWidth: c_int, nHeight: c_int) -> HBITMAP;$/;"	f
+CreateCompatibleDC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn CreateCompatibleDC(hdc: HDC) -> HDC;$/;"	f
+DCCLASS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static DCCLASS: u8 = 0;$/;"	c
+DCT_0	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_0: i8 = 0;$/;"	c
+DCT_1	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_1: i8 = 1;$/;"	c
+DCT_2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_2: i8 = 2;$/;"	c
+DCT_3	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_3: i8 = 3;$/;"	c
+DCT_4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_4: i8 = 4;$/;"	c
+DCT_CAT1	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT1: i8 = 5;$/;"	c
+DCT_CAT2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT2: i8 = 6;$/;"	c
+DCT_CAT3	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT3: i8 = 7;$/;"	c
+DCT_CAT4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT4: i8 = 8;$/;"	c
+DCT_CAT5	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT5: i8 = 9;$/;"	c
+DCT_CAT6	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_CAT6: i8 = 10;$/;"	c
+DCT_CAT_BASE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static DCT_CAT_BASE: [u8; 6] = [5, 7, 11, 19, 35, 67];$/;"	c
+DCT_EOB	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DCT_EOB: i8 = 11;$/;"	c
+DCT_TOKEN_TREE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static DCT_TOKEN_TREE: [i8; 22] = [$/;"	c
+DC_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const DC_PRED: i8 = 0;$/;"	c
+DC_QUANT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static DC_QUANT: [i16; 128] = [$/;"	c
+DHT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static DHT: u8 = 0xC4;$/;"	c
+DIB_RGB_COLORS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const DIB_RGB_COLORS: UINT = 0;$/;"	c
+DQT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static DQT: u8 = 0xDB;$/;"	c
+DWORD	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type DWORD = u32; \/\/ c_ulong;$/;"	T
+Decoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^pub struct Decoder<R: Read> {$/;"	s
+DecodingBuffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub enum DecodingBuffer<'a> {$/;"	g
+DecodingDict	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^struct DecodingDict {$/;"	s
+DecodingResult	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub enum DecodingResult {$/;"	g
+DeleteDC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn DeleteDC(hdc: HDC) -> BOOL;$/;"	f
+DeleteObject	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn DeleteObject(hObject: HGDIOBJ) -> BOOL;$/;"	f
+DirEntry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^struct DirEntry {$/;"	s
+Directory	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^pub type Directory = HashMap<Tag, Entry>;$/;"	T
+DynamicImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub enum DynamicImage {$/;"	g
+EOI	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static EOI: u8 = 0xD9;$/;"	c
+Either	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^enum Either<T, U> {$/;"	g
+Either	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^enum Either<T, U> {$/;"	g
+Encoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^pub struct Encoder<W: Write> {$/;"	s
+EncodingDict	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^struct EncodingDict {$/;"	s
+EndianReader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^pub trait EndianReader: Read {$/;"	t
+Entry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^pub struct Entry {$/;"	s
+EnumDisplayMonitors	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn EnumDisplayMonitors(hdc: HDC, lprcClip: LPCRECT,$/;"	f
+EnumeratePixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub struct EnumeratePixels<'a, P: Pixel + 'a> where <P as Pixel>::Subpixel: 'a {$/;"	s
+EnumeratePixelsMut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub struct EnumeratePixelsMut<'a, P: Pixel + 'a> where <P as Pixel>::Subpixel: 'a {$/;"	s
+FIX_0_298631336	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_0_298631336: i32 = 2446;$/;"	c
+FIX_0_390180644	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_0_390180644: i32 = 3196;$/;"	c
+FIX_0_541196100	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_0_541196100: i32 = 4433;$/;"	c
+FIX_0_765366865	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_0_765366865: i32 = 6270;$/;"	c
+FIX_0_899976223	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_0_899976223: i32 = 7373;$/;"	c
+FIX_1_175875602	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_1_175875602: i32 = 9633;$/;"	c
+FIX_1_501321110	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_1_501321110: i32 = 12299;$/;"	c
+FIX_1_847759065	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_1_847759065: i32 = 15137;$/;"	c
+FIX_1_961570560	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_1_961570560: i32 = 16069;$/;"	c
+FIX_2_053119869	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_2_053119869: i32 = 16819;$/;"	c
+FIX_2_562915447	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_2_562915447: i32 = 20995;$/;"	c
+FIX_3_072711026	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static FIX_3_072711026: i32 = 25172;$/;"	c
+Filter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub struct Filter <'a> {$/;"	s
+FilterType	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub enum FilterType {$/;"	g
+FormatFullBytes	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^enum FormatFullBytes {$/;"	g
+Frame	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^pub struct Frame {$/;"	s
+Frame	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^pub struct Frame {$/;"	s
+Frames	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^pub struct Frames {$/;"	s
+FromColor	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub trait FromColor<Other> {$/;"	t
+GAMMA	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const GAMMA: f64 = 1024.0;$/;"	c
+GenericImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub trait GenericImage: Sized {$/;"	t
+GetDC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn GetDC(hWnd: HWND) -> HDC;$/;"	f
+GetDIBits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn GetDIBits(hdc: HDC, hbmp: HBITMAP, uStartScan: UINT, cScanLines: UINT,$/;"	f
+GetDesktopWindow	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn GetDesktopWindow() -> HWND;$/;"	f
+GetMonitorInfo	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn GetMonitorInfo(hMonitor: HMONITOR, lpmi: LPMONITORINFO) -> BOOL;$/;"	f
+GetSystemMetrics	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn GetSystemMetrics(m: c_int) -> c_int;$/;"	f
+GrayAlphaImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub type GrayAlphaImage = ImageBuffer<LumaA<u8>, Vec<u8>>;$/;"	T
+GrayImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub type GrayImage = ImageBuffer<Luma<u8>, Vec<u8>>;$/;"	T
+HANDLE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HANDLE = PVOID;$/;"	T
+HBITMAP	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HBITMAP = HANDLE;$/;"	T
+HDC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HDC = HANDLE;$/;"	T
+HDRAdapter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub struct HDRAdapter<R: BufRead> {$/;"	s
+HDRDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub struct HDRDecoder<R> {$/;"	s
+HDREncoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^pub struct HDREncoder<W: Write> {$/;"	s
+HDRImageDecoderIterator	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub struct HDRImageDecoderIterator<R: BufRead> {$/;"	s
+HDRMetadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub struct HDRMetadata {$/;"	s
+HGDIOBJ	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HGDIOBJ = HANDLE;$/;"	T
+HGDI_ERROR	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const HGDI_ERROR: *mut c_void = -1isize as *mut c_void;$/;"	c
+HMONITOR	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HMONITOR = HANDLE;$/;"	T
+HWND	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type HWND = HANDLE;$/;"	T
+H_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const H_PRED: i8 = 2;$/;"	c
+Header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^struct Header {$/;"	s
+ICODecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^pub struct ICODecoder<R: Read> {$/;"	s
+ICOEncoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^pub struct ICOEncoder<W: Write> {$/;"	s
+ICO_DIRENTRY_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^const ICO_DIRENTRY_SIZE: u32 = 16;$/;"	c
+ICO_ICONDIR_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^const ICO_ICONDIR_SIZE: u32 = 6;$/;"	c
+ICO_IMAGE_TYPE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^const ICO_IMAGE_TYPE: u16 = 1;$/;"	c
+IMAGE_DIR	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^const IMAGE_DIR: [&'static str; 3] = [".", "tests", "images"];$/;"	c
+INIT_ALPHA	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const INIT_ALPHA: i32 = 1 << ALPHA_BIASSHIFT; \/\/ biased by 10 bits$/;"	c
+ImageBuffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub struct ImageBuffer<P: Pixel, Container> {$/;"	s
+ImageDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub trait ImageDecoder: Sized {$/;"	t
+ImageError	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub enum ImageError {$/;"	g
+ImageFormat	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub enum ImageFormat {$/;"	g
+ImageResult	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub type ImageResult<T> = Result<T, ImageError>;$/;"	T
+ImageType	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^enum ImageType {$/;"	g
+ImageType	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^enum ImageType {$/;"	g
+InnerDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^enum InnerDecoder<R: Read> {$/;"	g
+IntoImageError	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^trait IntoImageError<T> {$/;"	t
+IntoIter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    type IntoIter = HDRImageDecoderIterator<R>;$/;"	T
+Invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub trait Invert {$/;"	t
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    type Item = Frame;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    type Item = &'a mut [u8];$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    type Item = RLEInsn;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Item = &'a P;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Item = &'a mut P;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Item = (u32, u32, &'a P);$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Item = (u32, u32, &'a mut P);$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    type Item = ImageResult<RGBE8Pixel>;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    type Item = RunOrNot;$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    type Item = (u32, u32, &'a mut I::Pixel);$/;"	T
+Item	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    type Item = (u32, u32, I::Pixel);$/;"	T
+JPEGDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^pub struct JPEGDecoder<R> {$/;"	s
+JPEGEncoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^pub struct JPEGEncoder<'a, W: 'a> {$/;"	s
+KEYFRAME_BPRED_MODE_PROBS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_BPRED_MODE_PROBS: [[[u8; 9]; 10]; 10] = [$/;"	c
+KEYFRAME_BPRED_MODE_TREE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_BPRED_MODE_TREE: [i8; 18] = [$/;"	c
+KEYFRAME_UV_MODE_PROBS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_UV_MODE_PROBS: [Prob; 3] = [142, 114, 183];$/;"	c
+KEYFRAME_UV_MODE_TREE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_UV_MODE_TREE: [i8; 6] = [$/;"	c
+KEYFRAME_YMODE_PROBS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_YMODE_PROBS: [Prob; 4] = [145, 156, 163, 128];$/;"	c
+KEYFRAME_YMODE_TREE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static KEYFRAME_YMODE_TREE: [i8; 8] = [-B_PRED, 2, 4, 6, -DC_PRED, -V_PRED, -H_PRED, -TM_PRED];$/;"	c
+LONG	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LONG = c_long;$/;"	T
+LOOKUP_TABLE_3_BIT_TO_8_BIT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^static LOOKUP_TABLE_3_BIT_TO_8_BIT: [u8; 8] = [0, 36, 73, 109, 146, 182, 219, 255];$/;"	c
+LOOKUP_TABLE_4_BIT_TO_8_BIT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^static LOOKUP_TABLE_4_BIT_TO_8_BIT: [u8; 16] = [0, 17, 34, 51, 68, 85, 102, 119, 136, 153, 170, 187, 204, 221, 238, 255];$/;"	c
+LOOKUP_TABLE_5_BIT_TO_8_BIT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^static LOOKUP_TABLE_5_BIT_TO_8_BIT: [u8; 32] = [0, 8, 16, 25, 33, 41, 49, 58, 66, 74, 82, 90, 99, 107, 115, 123, 132, 140, 148, 156, 165, 173, 181, 189, 197, 206, 214, 222, 230, 239, 247, 255];$/;"	c
+LOOKUP_TABLE_6_BIT_TO_8_BIT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^static LOOKUP_TABLE_6_BIT_TO_8_BIT: [u8; 64] = [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 105, 109, 113, 117, 121, 125, 130, 134, 138, 142, 146, 150, 154, 158, 162, 166, 170, 174, 178, 182, 186, 190, 194, 198, 202, 206, 210, 215, 219, 223, 227, 231, 235, 239, 243, 247, 251, 255];$/;"	c
+LPARAM	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPARAM = c_long;$/;"	T
+LPBITMAPINFO	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPBITMAPINFO = PVOID; \/\/ Hack$/;"	T
+LPCRECT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPCRECT = *const RECT;$/;"	T
+LPMONITORINFO	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPMONITORINFO = *mut MONITORINFO;$/;"	T
+LPRECT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPRECT = *mut RECT;$/;"	T
+LPVOID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type LPVOID = *mut c_void;$/;"	T
+LUMADESTINATION	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static LUMADESTINATION: u8 = 0;$/;"	c
+LUMAID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static LUMAID: u8 = 1;$/;"	c
+LZWReader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^pub struct LZWReader {$/;"	s
+MAGIC_BYTES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^static MAGIC_BYTES: [(&'static [u8], ImageFormat); 10] = [$/;"	c
+MAX_CODESIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^const MAX_CODESIZE: u8 = 12;$/;"	c
+MAX_ENTRIES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^const MAX_ENTRIES: usize = 1 << MAX_CODESIZE as usize;$/;"	c
+MAX_PALETTE_SIZE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^        const MAX_PALETTE_SIZE: usize = 256; \/\/ Palette indices are u8.$/;"	c
+MAX_SEGMENTS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const MAX_SEGMENTS: usize = 4;$/;"	c
+MONITORENUMPROC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type MONITORENUMPROC = fn(HMONITOR, HDC, LPRECT, LPARAM) -> BOOL;$/;"	T
+MONITORINFO	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	struct MONITORINFO {$/;"	s
+MacroBlock	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^struct MacroBlock {$/;"	s
+MutPixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub struct MutPixels<'a, I: 'a> {$/;"	s
+NORUN_MAX_LEN	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^const NORUN_MAX_LEN: usize = 128;$/;"	c
+NULL	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const NULL: *mut c_void = 0usize as *mut c_void;$/;"	c
+NUM_DCT_TOKENS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const NUM_DCT_TOKENS: usize = 12;$/;"	c
+NeuQuant	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^pub struct NeuQuant {$/;"	s
+Neuron	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^type Neuron = Quad<f64>;$/;"	T
+Node	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^struct Node {$/;"	s
+NorunCombineIterator	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^struct NorunCombineIterator<'a> {$/;"	s
+Output	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Output = P;$/;"	T
+Output	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    type Output = T;$/;"	T
+PASS1_BITS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^static PASS1_BITS: i32 = 2;$/;"	c
+PNGDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^pub struct PNGDecoder<R: Read> {$/;"	s
+PNGEncoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^pub struct PNGEncoder<W: Write> {$/;"	s
+PNG_SIGNATURE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^const PNG_SIGNATURE: [u8; 8] = [137, 80, 78, 71, 13, 10, 26, 10];$/;"	c
+PPMEncoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^pub struct PPMEncoder<'a, W: 'a> {$/;"	s
+PRIMES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const PRIMES: [usize; 4] = [499, 491, 478, 503];$/;"	c
+PROB_DCT_CAT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static PROB_DCT_CAT: [[Prob; 12]; 6] = [$/;"	c
+PVOID	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type PVOID = *mut c_void;$/;"	T
+PhotometricInterpretation	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^enum PhotometricInterpretation {$/;"	g
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Pixel = P;$/;"	T
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub trait Pixel: Copy + Clone {$/;"	t
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    type Pixel = color::Rgba<u8>;$/;"	T
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    type Pixel = I::Pixel;$/;"	T
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    type Pixel: Pixel;$/;"	T
+Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^pub struct Pixel {$/;"	s
+Pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub struct Pixels<'a, P: Pixel + 'a> where P::Subpixel: 'a {$/;"	s
+Pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub struct Pixels<'a, I: 'a> {$/;"	s
+PixelsMut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub struct PixelsMut<'a, P: Pixel + 'a> where P::Subpixel: 'a {$/;"	s
+PlanarConfiguration	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^enum PlanarConfiguration {$/;"	g
+Predictor	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^enum Predictor {$/;"	g
+Primitive	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/traits.rs	/^pub trait Primitive: Copy + NumCast + Num + PartialOrd<Self> + Clone + Bounded {$/;"	t
+Prob	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^type Prob = u8;$/;"	T
+Quad	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^struct Quad<T> {$/;"	s
+R5_G5_B5_COLOR_MASK	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^static R5_G5_B5_COLOR_MASK: Bitfields = Bitfields {$/;"	c
+R8_G8_B8_COLOR_MASK	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const R8_G8_B8_COLOR_MASK: Bitfields = Bitfields {$/;"	c
+RADIUS_DEC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^const RADIUS_DEC: i32 = 30; \/\/ factor of 1\/30 each cycle$/;"	c
+RECT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	struct RECT {$/;"	s
+RGBE8Pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub struct RGBE8Pixel {$/;"	s
+RGBQUAD	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	struct RGBQUAD {$/;"	s
+RLEInsn	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^enum RLEInsn {$/;"	g
+RLEInsnIterator	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^struct RLEInsnIterator<'a, R: 'a + Read> {$/;"	s
+RLE_ESCAPE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const RLE_ESCAPE: u8 = 0;$/;"	c
+RLE_ESCAPE_DELTA	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const RLE_ESCAPE_DELTA: u8 = 2;$/;"	c
+RLE_ESCAPE_EOF	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const RLE_ESCAPE_EOF: u8 = 1;$/;"	c
+RLE_ESCAPE_EOL	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^const RLE_ESCAPE_EOL: u8 = 0;$/;"	c
+RUN_MAX_LEN	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^const RUN_MAX_LEN: usize = 127;$/;"	c
+ReleaseDC	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn ReleaseDC(hWnd: HWND, hDC: HDC) -> c_int;$/;"	f
+RgbImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub type RgbImage = ImageBuffer<Rgb<u8>, Vec<u8>>;$/;"	T
+RgbaImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^pub type RgbaImage = ImageBuffer<Rgba<u8>, Vec<u8>>;$/;"	T
+RowIterator	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^pub struct RowIterator<'a> {$/;"	s
+RunIterator	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^struct RunIterator<'a> {$/;"	s
+RunOrNot	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^enum RunOrNot {$/;"	g
+SEGMENT_ID_TREE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static SEGMENT_ID_TREE: [i8; 6] = [2, 4, -0, -1, -2, -3];$/;"	c
+SIGNATURE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub const SIGNATURE: &'static [u8] = b"#?RADIANCE";$/;"	c
+SIGNATURE_LENGTH	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^const SIGNATURE_LENGTH: usize = 10;$/;"	c
+SM_CXSCREEN	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const SM_CXSCREEN: c_int = 0;$/;"	c
+SM_CYSCREEN	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const SM_CYSCREEN: c_int = 1;$/;"	c
+SOF0	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static SOF0: u8 = 0xC0;$/;"	c
+SOI	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static SOI: u8 = 0xD8;$/;"	c
+SOS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static SOS: u8 = 0xDA;$/;"	c
+SRCCOPY	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const SRCCOPY: u32 = 0x00CC0020;$/;"	c
+STD_CHROMA_AC_CODE_LENGTHS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_CHROMA_AC_CODE_LENGTHS: [u8; 16] = [$/;"	c
+STD_CHROMA_AC_VALUES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_CHROMA_AC_VALUES: [u8; 162] = [$/;"	c
+STD_CHROMA_DC_CODE_LENGTHS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_CHROMA_DC_CODE_LENGTHS: [u8; 16] = [$/;"	c
+STD_CHROMA_DC_VALUES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_CHROMA_DC_VALUES: [u8; 12] = [$/;"	c
+STD_CHROMA_QTABLE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_CHROMA_QTABLE: [u8; 64] = [$/;"	c
+STD_LUMA_AC_CODE_LENGTHS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_LUMA_AC_CODE_LENGTHS: [u8; 16] = [$/;"	c
+STD_LUMA_AC_VALUES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_LUMA_AC_VALUES: [u8; 162] = [$/;"	c
+STD_LUMA_DC_CODE_LENGTHS	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_LUMA_DC_CODE_LENGTHS: [u8; 16] = [$/;"	c
+STD_LUMA_DC_VALUES	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_LUMA_DC_VALUES: [u8; 12] = [$/;"	c
+STD_LUMA_QTABLE	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static STD_LUMA_QTABLE: [u8; 64] = [$/;"	c
+ScreenResult	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^pub type ScreenResult = Result<Screenshot, &'static str>;$/;"	T
+Screenshot	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^pub struct Screenshot {$/;"	s
+Segment	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^struct Segment {$/;"	s
+SelectObject	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^		fn SelectObject(hdc: HDC, hgdiobj: HGDIOBJ) -> HGDIOBJ;$/;"	f
+SmartReader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^pub struct SmartReader<R> where R: Read + Seek {$/;"	s
+SubImage	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^pub struct SubImage <'a, I: 'a> {$/;"	s
+Subpixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Subpixel: Primitive;$/;"	T
+Subpixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    type Subpixel = T;$/;"	T
+TGADecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^pub struct TGADecoder<R> {$/;"	s
+TIFFDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^pub struct TIFFDecoder<R> where R: Read + Seek {$/;"	s
+TM_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const TM_PRED: i8 = 3;$/;"	c
+Tag	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^        pub enum Tag {$/;"	g
+Target	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    type Target = [P::Subpixel];$/;"	T
+TokenProbTables	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^type TokenProbTables = [[[[Prob; NUM_DCT_TOKENS - 1]; 3]; 8]; 4];$/;"	T
+Type	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^pub enum Type {$/;"	g
+UINT	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type UINT = c_uint;$/;"	T
+UNZIGZAG	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^static UNZIGZAG: [u8; 64] = [$/;"	c
+VP8Decoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^pub struct VP8Decoder<R> {$/;"	s
+V_PRED	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^const V_PRED: i8 = 1;$/;"	c
+Value	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^pub enum Value {$/;"	g
+WORD	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	type WORD = u16; \/\/ c_uint;$/;"	T
+WebpDecoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^pub struct WebpDecoder<R> {$/;"	s
+Wrapping	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^trait Wrapping {$/;"	t
+ZIGZAG	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^static ZIGZAG: [u8; 16] = [0, 1, 4, 8, 5, 2, 3, 6, 9, 12, 13, 10, 7, 11, 14, 15];$/;"	c
+a	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    fn a<T>(mut v: Vec<T>, mut other: Vec<T>) -> Vec<T> {$/;"	f
+add_residue	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn add_residue(pblock: &mut [u8], rblock: &[i32], y0: usize, x0: usize, stride: usize) {$/;"	f
+adjust_contrast	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn adjust_contrast(&self, c: f32) -> DynamicImage {$/;"	f
+advance	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn advance(&mut self) {$/;"	f
+alterneigh	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn alterneigh(&mut self, alpha: f64, rad: i32, i: i32, quad: Quad<f64>) {$/;"	f
+altersingle	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn altersingle(&mut self, alpha: f64, i: i32, quad: Quad<f64>) {$/;"	f
+apply	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn apply<F>(&mut self, f: F) where F: Fn(Self::Subpixel) -> Self::Subpixel;$/;"	f
+apply	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn apply<F>(&mut self, f: F) where F: Fn(T) -> T {$/;"	f
+apply2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn apply2<F>(&mut self, other: &Self, f: F)$/;"	f
+apply2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn apply2<F>(&mut self, other: &$ident<T>, f: F) where F: Fn(T, T) -> T {$/;"	f
+apply_with_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn apply_with_alpha<F, G>(&mut self, f: F, g: G)$/;"	f
+apply_with_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn apply_with_alpha<F, G>(&mut self, f: F, g: G) where F: Fn(T) -> T, G: Fn(T) -> T {$/;"	f
+as_luma8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_luma8(& self) -> Option<& GrayImage> {$/;"	f
+as_luma_alpha8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_luma_alpha8(&self) -> Option<& GrayAlphaImage> {$/;"	f
+as_mut_luma8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_mut_luma8(&mut self) -> Option<&mut GrayImage> {$/;"	f
+as_mut_luma_alpha8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_mut_luma_alpha8(&mut self) -> Option<&mut GrayAlphaImage> {$/;"	f
+as_mut_rgb8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_mut_rgb8(&mut self) -> Option<&mut RgbImage> {$/;"	f
+as_mut_rgba8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_mut_rgba8(&mut self) -> Option<&mut RgbaImage> {$/;"	f
+as_ref	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	fn as_ref<'a>(&'a self) -> &'a [u8] {$/;"	f
+as_rgb8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_rgb8(&self) -> Option<&RgbImage> {$/;"	f
+as_rgba8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn as_rgba8(&self) -> Option<& RgbaImage> {$/;"	f
+as_u32	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    pub fn as_u32(self) -> ::image::ImageResult<u32> {$/;"	f
+as_u32_vec	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    pub fn as_u32_vec(self) -> ::image::ImageResult<Vec<u32>> {$/;"	f
+assert_pixels_eq	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    macro_rules! assert_pixels_eq {$/;"	d
+avg2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn avg2(this: u8, right: u8) -> u8 {$/;"	f
+avg3	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn avg3(left: u8, this: u8, right: u8) -> u8 {$/;"	f
+bc_cubic_spline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^fn bc_cubic_spline(x: f32, b: f32, c: f32) -> f32 {$/;"	f
+bench_conversion	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn bench_conversion(b: &mut test::Bencher) {$/;"	f
+bench_conversion	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn bench_conversion(b: &mut test::Bencher) {$/;"	f
+bench_load	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load(b: &mut test::Bencher, def: &BenchDef, filename: &str, ) {$/;"	f
+bench_load_bmp_16bf	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_16bf(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_16bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_16bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_1bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_1bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_24bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_24bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_32bf	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_32bf(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_32bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_32bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_4bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_4bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_4rle	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_4rle(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_8bit	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_8bit(b: &mut test::Bencher) {$/;"	f
+bench_load_bmp_8rle	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/benches/load.rs	/^fn bench_load_bmp_8rle(b: &mut test::Bencher) {$/;"	f
+bench_resize	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^    fn bench_resize(b: &mut test::Bencher) {$/;"	f
+best_entry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^fn best_entry(mut entries: Vec<DirEntry>) -> ImageResult<DirEntry> {$/;"	f
+bits_per_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub fn bits_per_pixel(c: ColorType) -> usize {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn blend(&mut self, other: &Self);$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &$ident<T>) {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &Luma<T>) {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &LumaA<T>) {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &Rgb<T>) {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &Rgba<T>) {$/;"	f
+blend	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn blend(&mut self, other: &Self);$/;"	f
+blend_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn blend_pixel(&mut self, x: u32, y: u32, p: P) {$/;"	f
+blend_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn blend_pixel(&mut self, x: u32, y: u32, pixel: color::Rgba<u8>) {$/;"	f
+blend_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn blend_pixel(&mut self, x: u32, y: u32, pixel: I::Pixel) {$/;"	f
+blend_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn blend_pixel(&mut self, x: u32, y: u32, pixel: Self::Pixel);$/;"	f
+blur	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn blur(&self, sigma: f32) -> DynamicImage {$/;"	f
+blur	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn blur<I: GenericImage + 'static>(image: &I, sigma: f32)$/;"	f
+bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn bounds(&self) -> (u32, u32, u32, u32) {$/;"	f
+bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn bounds(&self) -> (u32, u32, u32, u32) {$/;"	f
+bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn bounds(&self) -> (u32, u32, u32, u32) {$/;"	f
+bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn bounds(&self) -> (u32, u32, u32, u32);$/;"	f
+box_kernel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn box_kernel(x: f32) -> f32 {$/;"	f
+brighten	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn brighten(&self, value: i32) -> DynamicImage {$/;"	f
+brighten	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn brighten<I, P, S>(image: &I, value: i32)$/;"	f
+buffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn buffer(&self) -> &RgbaImage {$/;"	f
+buffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn buffer(&self) -> &[u8] {$/;"	f
+build_colormap	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn build_colormap(&mut self) {$/;"	f
+build_frame_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn build_frame_header(precision: u8,$/;"	f
+build_huff_lut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/entropy.rs	/^pub fn build_huff_lut(bits: &[u8], huffval: &[u8]) -> Vec<(u8, u16)> {$/;"	f
+build_huffman_segment	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn build_huffman_segment(class: u8,$/;"	f
+build_jfif_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn build_jfif_header() -> Vec<u8> {$/;"	f
+build_quantization_segment	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn build_quantization_segment(precision: u8,$/;"	f
+build_scan_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn build_scan_header(components: &[Component]) -> Vec<u8> {$/;"	f
+byte_order	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn byte_order(&self) -> ByteOrder {$/;"	f
+byte_order	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn byte_order(&self) -> ByteOrder {$/;"	f
+byte_order	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn byte_order(&self) -> ByteOrder;$/;"	f
+bytes_per_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn bytes_per_color(&self) -> usize {$/;"	f
+bytes_to_index	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^        fn bytes_to_index(bytes: &[u8]) -> usize {$/;"	f
+catmullrom_kernel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn catmullrom_kernel(x: f32) -> f32 {$/;"	f
+cause	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn cause (&self) -> Option<&Error> {$/;"	f
+change_bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    pub fn change_bounds(&mut self, x: u32, y: u32, width: u32, height: u32) {$/;"	f
+channel_count	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn channel_count() -> u8;$/;"	f
+channel_count	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn channel_count() -> u8 {$/;"	f
+channels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn channels(&self) -> &[Self::Subpixel];$/;"	f
+channels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn channels(&self) -> &[T] {$/;"	f
+channels4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn channels4(&self) -> (Self::Subpixel, Self::Subpixel, Self::Subpixel, Self::Subpixel);$/;"	f
+channels4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn channels4(&self) -> (T, T, T, T) {$/;"	f
+channels_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn channels_mut(&mut self) -> &mut [Self::Subpixel];$/;"	f
+channels_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn channels_mut(&mut self) -> &mut [T] {$/;"	f
+clamp	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/utils.rs	/^pub fn clamp<N>(a: N, min: N, max: N) -> N$/;"	f
+clear_code	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn clear_code(&self) -> Code {$/;"	f
+clone	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn clone(&self) -> ImageBuffer<P, Container> {$/;"	f
+cmyk_to_rgb	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^fn cmyk_to_rgb(input: &[u8]) -> Vec<u8> {$/;"	f
+color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn color(&self) -> color::ColorType {$/;"	f
+color_model	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn color_model() -> &'static str;$/;"	f
+color_model	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn color_model() -> &'static str {$/;"	f
+color_type	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn color_type() -> ColorType;$/;"	f
+color_type	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn color_type() -> ColorType {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn colortype(&mut self) -> ImageResult<color::ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType>;$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn colortype(&mut self) -> ImageResult<ColorType> {$/;"	f
+colortype	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn colortype(&mut self) -> ImageResult<color::ColorType> {$/;"	f
+contest	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn contest (&mut self, b: f64, g: f64, r: f64, a: f64) -> i32 {$/;"	f
+contrast	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn contrast<I, P, S>(image: &I, contrast: f32)$/;"	f
+convert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn convert(&self) -> ImageBuffer<ToType, Vec<ToType::Subpixel>> {$/;"	f
+convert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn convert(&self) -> T;$/;"	f
+copy_blocks_gray	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn copy_blocks_gray(source: &[u8],$/;"	f
+copy_blocks_ycbcr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn copy_blocks_ycbcr(source: &[u8],$/;"	f
+copy_from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn copy_from<O>(&mut self, other: &O, x: u32, y:u32) -> bool$/;"	f
+copy_memory	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/lib.rs	/^fn copy_memory(src: &[u8], mut dst: &mut [u8]) {$/;"	f
+create_border	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn create_border(mbx: usize, mby: usize, mbw: usize, top: &[u8], left: &[u8]) -> [u8; 357] {$/;"	f
+create_pixel_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn create_pixel_data(&self) -> Vec<u8> {$/;"	f
+crop	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn crop(&mut self,$/;"	f
+crop	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/mod.rs	/^pub fn crop<I: GenericImage + 'static>(image: &mut I, x: u32, y: u32,$/;"	f
+decode_component	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn decode_component<R: BufRead, S: FnMut(usize, u8)>(r: &mut R, width: usize, mut set_component: S) -> ImageResult<()> {$/;"	f
+decode_frame	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn decode_frame(&mut self) -> io::Result<&Frame> {$/;"	f
+decode_old_rle	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn decode_old_rle<R: BufRead>(r: &mut R, fb: RGBE8Pixel, buf: &mut [RGBE8Pixel]) -> ImageResult<()> {$/;"	f
+decoder	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn decoder<R: Read + Seek>(&self, mut r: R) -> ImageResult<InnerDecoder<R>> {$/;"	f
+decoder_to_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn decoder_to_image<I: ImageDecoder>(codec: I) -> ImageResult<DynamicImage> {$/;"	f
+define_bit_readers	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^macro_rules! define_bit_readers {$/;"	d
+define_bit_writers	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^macro_rules! define_bit_writers {$/;"	d
+define_colors	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^macro_rules! define_colors {$/;"	d
+define_decoder_function	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^macro_rules! define_decoder_function {$/;"	d
+delay	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn delay(&self) -> Ratio<u16> {$/;"	f
+deref	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn deref<'a>(&'a self) -> &'a <Self as Deref>::Target {$/;"	f
+deref_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn deref_mut<'a>(&'a mut self) -> &'a mut <Self as Deref>::Target {$/;"	f
+derive_codes_and_sizes	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/entropy.rs	/^fn derive_codes_and_sizes(bits: &[u8]) -> (Vec<u8>, Vec<u16>) {$/;"	f
+description	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn description (&self) -> &str {$/;"	f
+diffuse_err	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^fn diffuse_err<P: Pixel<Subpixel=u8>>(pixel: &mut P, error: [i16; 3], factor: i16) {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn dimensions(&self) -> (u32, u32) {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn dimensions(&self) -> (u32, u32) {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn dimensions(&self) -> (u32, u32) {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)>;$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn dimensions(&self) -> (u32, u32) {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn dimensions(&self) -> (u32, u32);$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dimensions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn dimensions(&mut self) -> ImageResult<(u32, u32)> {$/;"	f
+dither	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn dither<Pix, Map>(image: &mut ImageBuffer<Pix, Vec<u8>>, color_map: &Map)$/;"	f
+do_dithering	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^macro_rules! do_dithering($/;"	d
+dynamic_map	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^macro_rules! dynamic_map($/;"	d
+edge_pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn edge_pixels(a: &[u8],$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    pub fn encode(self, frame: Frame) -> ImageResult<()> {$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    pub fn encode(mut self, data: &[Rgb<f32>], width: usize, height: usize) -> Result<()> {$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^    pub fn encode(mut self, data: &[u8], width: u32, height: u32,$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    pub fn encode(&mut self,$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    pub fn encode(self, data: &[u8], width: u32, height: u32, color: ColorType) -> io::Result<()> {$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^    pub fn encode(&mut self, im: &[u8], width: u32, height: u32, color: color::ColorType) -> io::Result<()> {$/;"	f
+encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^pub fn encode<R, W>(r: R, mut w: W, min_code_size: u8) -> io::Result<()>$/;"	f
+encode_coefficient	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn encode_coefficient(coefficient: i32) -> (u8, u16) {$/;"	f
+encode_gray	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn encode_gray(&mut self, image: &[u8], width: usize, height: usize, bpp: usize) -> io::Result<()> {$/;"	f
+encode_rgb	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn encode_rgb(&mut self, image: &[u8], width: usize, height: usize, bpp: usize) -> io::Result<()> {$/;"	f
+end_code	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn end_code(&self) -> Code {$/;"	f
+enumerate_pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn enumerate_pixels<'a>(&'a self) -> EnumeratePixels<'a, P> {$/;"	f
+enumerate_pixels_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn enumerate_pixels_mut<'a>(&'a mut self) -> EnumeratePixelsMut<'a, P> {$/;"	f
+expand_color_map	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn expand_color_map(&mut self, pixel_data: Vec<u8>) -> Vec<u8> {$/;"	f
+expand_packed	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/mod.rs	/^pub fn expand_packed<F>(buf: &mut [u8], channels: usize, bit_depth: u8, func: F)$/;"	f
+expand_palette	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn expand_palette(self,$/;"	f
+expand_strip	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn expand_strip<'a>(&mut self, buffer: DecodingBuffer<'a>, offset: u32, length: u32) -> ImageResult<usize> {$/;"	f
+fdct	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/transform.rs	/^pub fn fdct(samples: &[u8], coeffs: &mut [i32]) {$/;"	f
+filter3x3	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn filter3x3(&self, kernel: &[f32]) -> DynamicImage {$/;"	f
+filter3x3	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn filter3x3<I, P, S>(image: &I, kernel: &[f32])$/;"	f
+find_tag	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn find_tag(&mut self, tag: ifd::Tag) -> ImageResult<Option<ifd::Value>> {$/;"	f
+find_tag_u32	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn find_tag_u32(&mut self, tag: ifd::Tag) -> ImageResult<Option<u32>> {$/;"	f
+find_tag_u32_vec	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn find_tag_u32_vec(&mut self, tag: ifd::Tag) -> ImageResult<Option<Vec<u32>>> {$/;"	f
+flip_horizontal	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^pub fn flip_horizontal<I: GenericImage + 'static>(image:  &I)$/;"	f
+flip_rows	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	fn flip_rows(data: Vec<u8>, height: usize, row_len: usize) -> Vec<u8> {$/;"	f
+flip_vertical	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^pub fn flip_vertical<I: GenericImage + 'static>(image:  &I)$/;"	f
+fliph	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn fliph(&self) -> DynamicImage {$/;"	f
+flipv	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn flipv(&self) -> DynamicImage {$/;"	f
+flush	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn flush(&mut self) -> io::Result<()> {$/;"	f
+fmt	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter) -> Result<(), fmt::Error> {$/;"	f
+fmt	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    fn fmt(&self, fmt: &mut ::std::fmt::Formatter) -> Result<(), ::std::fmt::Error> {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn from(err: gif::DecodingError) -> ImageError {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn from(err: io::Error) -> ImageError {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn from(err: jpeg_decoder::Error) -> ImageError {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn from(pixel_format: jpeg_decoder::PixelFormat) -> ColorType {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn from((ct, bits): (png::ColorType, png::BitDepth)) -> ColorType {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn from(ct: ColorType) -> (png::ColorType, png::BitDepth) {$/;"	f
+from	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn from(err: png::DecodingError) -> ImageError {$/;"	f
+from_channels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn from_channels(a: Self::Subpixel, b: Self::Subpixel, c: Self::Subpixel, d: Self::Subpixel) -> Self;$/;"	f
+from_channels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_channels(a: T, b: T, c: T, d: T,) -> $ident<T> {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, &Other);$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, gray: &Luma<T>) {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, other: &A) {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, other: &Luma<T>) {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, other: &LumaA<T>) {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, other: &Rgb<T>) {$/;"	f
+from_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_color(&mut self, other: &Rgba<T>) {$/;"	f
+from_fn	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn from_fn<F>(width: u32, height: u32, f: F)$/;"	f
+from_mask	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn from_mask(mask: u32, max_len: u32) -> ImageResult<Bitfield> {$/;"	f
+from_mask	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn from_mask(r_mask: u32, g_mask: u32, b_mask: u32, a_mask: u32, max_len: u32) -> ImageResult<Bitfields> {$/;"	f
+from_parts	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn from_parts(buffer: RgbaImage, left: u32, top: u32, delay: Ratio<u16>) -> Frame {$/;"	f
+from_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn from_pixel(width: u32, height: u32, pixel: P)$/;"	f
+from_raw	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn from_raw(width: u32, height: u32, buf: Container)$/;"	f
+from_reader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn from_reader(r: &mut Read) -> ImageResult<Header> {$/;"	f
+from_reader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    pub fn from_reader(r: &mut Read,$/;"	f
+from_slice	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn from_slice<'a>(slice: &'a [Self::Subpixel]) -> &'a Self;$/;"	f
+from_slice	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_slice<'a>(slice: &'a [T]) -> &'a $ident<T> {$/;"	f
+from_slice_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn from_slice_mut<'a>(slice: &'a mut [Self::Subpixel]) -> &'a mut Self;$/;"	f
+from_slice_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn from_slice_mut<'a>(slice: &'a mut [T]) -> &'a mut $ident<T> {$/;"	f
+from_u16	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^            pub fn from_u16(n: u16) -> Tag {$/;"	f
+from_vec	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn from_vec(width: u32, height: u32, buf: Vec<P::Subpixel>)$/;"	f
+gaussian	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn gaussian(x: f32, r: f32) -> f32 {$/;"	f
+gaussian_kernel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn gaussian_kernel(x: f32) -> f32 {$/;"	f
+get	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    pub fn get(&self, index: usize) -> &[u8] {$/;"	f
+get_palette_size	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn get_palette_size(&mut self) -> ImageResult<usize> {$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn get_pixel(&self, x: u32, y: u32) -> P {$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn get_pixel(&self, x: u32, y: u32) -> &P {$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn get_pixel(&self, x: u32, y: u32) -> color::Rgba<u8> {$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn get_pixel(&self, x: u32, y: u32) -> I::Pixel {$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn get_pixel(&self, x: u32, y: u32) -> Self::Pixel;$/;"	f
+get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn get_pixel(&self, row: usize, col: usize) -> Pixel {$/;"	f
+get_pixel_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn get_pixel_mut(&mut self, x: u32, y: u32) -> &mut P {$/;"	f
+get_pixel_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn get_pixel_mut(&mut self, x: u32, y: u32) -> &mut P {$/;"	f
+get_pixel_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn get_pixel_mut(&mut self, _: u32, _: u32) -> &mut color::Rgba<u8> {$/;"	f
+get_pixel_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn get_pixel_mut(&mut self, x: u32, y: u32) -> &mut I::Pixel {$/;"	f
+get_pixel_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn get_pixel_mut(&mut self, x: u32, y: u32) -> &mut Self::Pixel;$/;"	f
+get_reader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn get_reader(&mut self) -> Result<&mut gif::Reader<R>, gif::DecodingError> {$/;"	f
+get_reader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn get_reader(&mut self) -> Result<&mut png::Reader<R>, png::DecodingError> {$/;"	f
+get_screenshot	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn get_screenshot(_screen: usize) -> ScreenResult {$/;"	f
+get_screenshot	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn get_screenshot(screen: usize) -> ScreenResult {$/;"	f
+get_tag	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn get_tag(&mut self, tag: ifd::Tag) -> ImageResult<ifd::Value> {$/;"	f
+get_tag_u32	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn get_tag_u32(&mut self, tag: ifd::Tag) -> ImageResult<u32> {$/;"	f
+get_tag_u32_vec	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn get_tag_u32_vec(&mut self, tag: ifd::Tag) -> ImageResult<Vec<u32>> {$/;"	f
+goto_offset	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn goto_offset(&mut self, offset: u32) -> io::Result<()> {$/;"	f
+grayscale	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn grayscale(&self) -> DynamicImage {$/;"	f
+grayscale	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn grayscale<'a, I: GenericImage>(image: &I)$/;"	f
+height	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn height(&self) -> u32 {$/;"	f
+height	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn height(&self) -> u32 {$/;"	f
+height	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn height(&self) -> usize { self.height }$/;"	f
+horizontal_sample	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^fn horizontal_sample<I, P, S>(image: &I, new_width: u32,$/;"	f
+huffman_encode	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn huffman_encode(&mut self, val: u8, table: &[(u8, u16)]) -> io::Result<()> {$/;"	f
+idct4x4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/transform.rs	/^pub fn idct4x4(block: &mut [i32]) {$/;"	f
+image_to_bytes	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^fn image_to_bytes(image: &DynamicImage) -> Vec<u8> {$/;"	f
+in_bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn in_bounds(&self, x: u32, y: u32) -> bool {$/;"	f
+index	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn index(&self, (x, y): (u32, u32)) -> &P {$/;"	f
+index	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn index<'a>(&'a self, _index: usize) -> &'a T {$/;"	f
+index_colors	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn index_colors<Pix, Map>(image: &ImageBuffer<Pix, Vec<u8>>, color_map: &Map) ->$/;"	f
+index_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn index_mut(&mut self, (x, y): (u32, u32)) -> &mut P {$/;"	f
+index_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn index_mut<'a>(&'a mut self, _index: usize) -> &'a mut T {$/;"	f
+index_of	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn index_of(&self, color: &Luma<u8>) -> usize {$/;"	f
+index_of	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn index_of(&self, color: &Rgba<u8>) -> usize {$/;"	f
+index_of	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn index_of(&self, color: &Self::Color) -> usize;$/;"	f
+index_of	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    pub fn index_of(&self, pixel: &[u8]) -> usize {$/;"	f
+init	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    pub fn init(&mut self, pixels: &[u8]) {$/;"	f
+init	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn init(self) -> ImageResult<TIFFDecoder<R>> {$/;"	f
+init	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn init(&mut self, buf: Vec<u8>) {$/;"	f
+init_partitions	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn init_partitions(&mut self, n: usize) -> io::Result<()> {$/;"	f
+init_top_macroblocks	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn init_top_macroblocks(width: usize) -> Vec<MacroBlock> {$/;"	f
+inner_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    pub fn inner_mut(&mut self) -> &mut I {$/;"	f
+into_buffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn into_buffer(self) -> RgbaImage {$/;"	f
+into_frames	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn into_frames(self) -> ImageResult<Frames> {$/;"	f
+into_image_error	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn into_image_error(self, description: &str) -> ImageResult<T> {$/;"	f
+into_image_error	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn into_image_error(self, description: &str) -> ImageResult<T>;$/;"	f
+into_iter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_raw	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn into_raw(self) -> Container {$/;"	f
+into_vec	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn into_vec(self) -> Vec<P::Subpixel> {$/;"	f
+intra_predict	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn intra_predict(&mut self, mbx: usize, mby: usize, mb: &MacroBlock, resdata: &[i32]) {$/;"	f
+invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn invert(&mut self);$/;"	f
+invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn invert(&mut self) {$/;"	f
+invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn invert(&mut self);$/;"	f
+invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn invert(&mut self) {$/;"	f
+invert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^pub fn invert<I: GenericImage>(image: &mut I) {$/;"	f
+inxbuild	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn inxbuild(&mut self) {$/;"	f
+inxsearch	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn inxsearch(&self, b: u8, g: u8, r: u8, a: u8) -> usize {$/;"	f
+is_aligned	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn is_aligned(&self) -> bool {$/;"	f
+is_animated	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn is_animated(&mut self) -> ImageResult<bool> {$/;"	f
+is_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn is_color(&self) -> bool {$/;"	f
+is_color_mapped	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn is_color_mapped(&self) -> bool {$/;"	f
+is_encoded	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn is_encoded(&self) -> bool {$/;"	f
+is_png	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn is_png<R: Read + Seek>(&self, r: &mut R) -> ImageResult<bool> {$/;"	f
+iwht4x4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/transform.rs	/^pub fn iwht4x4(block: &mut [i32]) {$/;"	f
+kCGErrorFailure	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const kCGErrorFailure: CGError = 1000;$/;"	c
+kCGErrorSuccess	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	const kCGErrorSuccess: CGError = 0;$/;"	c
+lanczos	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^fn lanczos(x: f32, t: f32) -> f32 {$/;"	f
+lanczos3_kernel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn lanczos3_kernel(x: f32) -> f32 {$/;"	f
+learn	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    fn learn(&mut self, pixels: &[u8]) {$/;"	f
+left	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn left(&self) -> u32 {$/;"	f
+left_pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn left_pixels(a: &[u8], x0: usize, y0: usize, stride: usize) -> (u8, u8, u8, u8) {$/;"	f
+limit_string_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn limit_string_len(s: &str, len: usize) -> String {$/;"	f
+load	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn load<R: BufRead+Seek>(r: R, format: ImageFormat) -> ImageResult<DynamicImage> {$/;"	f
+load_from_memory	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn load_from_memory(buffer: &[u8]) -> ImageResult<DynamicImage> {$/;"	f
+load_from_memory_with_format	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn load_from_memory_with_format(buf: &[u8], format: ImageFormat) -> ImageResult<DynamicImage> {$/;"	f
+load_rect	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn load_rect(&mut self, x: u32, y: u32, length: u32, width: u32) -> ImageResult<Vec<u8>> {$/;"	f
+main	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/examples/screen.rs	/^fn main() {$/;"	f
+main	/Users/koji/development/Rust/gifzo_rust/src/main.rs	/^fn main() {$/;"	f
+map	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn map<F>(&self, f: F) -> Self where F: Fn(Self::Subpixel) -> Self::Subpixel;$/;"	f
+map	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn map<F>(& self, f: F) -> $ident<T> where F: Fn(T) -> T {$/;"	f
+map2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn map2<F>(&self, other: &Self, f: F) -> Self$/;"	f
+map2	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn map2<F>(&self, other: &Self, f: F) -> $ident<T> where F: Fn(T, T) -> T {$/;"	f
+map_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn map_color(&self, color: &mut Luma<u8>) {$/;"	f
+map_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn map_color(&self, color: &mut Rgba<u8>) {$/;"	f
+map_color	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn map_color(&self, color: &mut Self::Color);$/;"	f
+map_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    pub fn map_pixel(&self, pixel: &mut [u8]) {$/;"	f
+map_with_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn map_with_alpha<F, G>(&self, f: F, g: G) -> Self$/;"	f
+map_with_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn map_with_alpha<F, G>(&self, f: F, g: G) -> $ident<T> where F: Fn(T) -> T, G: Fn(T) -> T {$/;"	f
+max_pixel_value	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^fn max_pixel_value(pixel_type: color::ColorType) -> u16 {$/;"	f
+metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn metadata(&self) -> HDRMetadata {$/;"	f
+metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn metadata(&mut self) -> ImageResult<jpeg_decoder::ImageInfo> {$/;"	f
+more_images	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn more_images(&self) -> bool {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn new(buffer: RgbaImage) -> Frame {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn new(frames: Vec<Frame>) -> Frames {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    pub fn new(r: R) -> BMPDecoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn new(width: u32, height: u32) -> ImageBuffer<P, Vec<P::Subpixel>> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    pub fn new(r: R) -> Decoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    pub fn new(w: W) -> Encoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn new() -> HDRMetadata {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn new(r: R) -> ImageResult<HDRAdapter<R>> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn new(reader: R) -> ImageResult<HDRDecoder<R>> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    fn new(data: &'a [u8]) -> NorunCombineIterator<'a> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    fn new(data: &'a [u8]) -> RunIterator<'a> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    pub fn new(w: W) -> HDREncoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    pub fn new(mut r: R) -> ImageResult<ICODecoder<R>> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^    pub fn new(w: W) -> ICOEncoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    pub fn new(image: &mut I, x: u32, y: u32, width: u32, height: u32) -> SubImage<I> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    pub fn new(r: R) -> JPEGDecoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    pub fn new(w: &mut W) -> JPEGEncoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/math/nq.rs	/^    pub fn new(samplefac: i32, colors: usize, pixels: &[u8]) -> Self {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    pub fn new(r: R) -> PNGDecoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    pub fn new(w: W) -> PNGEncoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^    pub fn new(w: &mut W) -> PPMEncoder<W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn new() -> Header {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn new(img_type: u8) -> ImageType {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    pub fn new(r: R) -> TGADecoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    pub fn new(type_: Type, count: u32, offset: [u8; 4]) -> Entry {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn new(r: R) -> ImageResult<TIFFDecoder<R>> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    pub fn new<R>(reader: &mut SmartReader<R>) -> io::Result<(usize, LZWReader)> where R: Read + Seek {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    pub fn new(reader: R) -> $name<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    pub fn new(writer: &'a mut W) -> $name<'a, W> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn new(c: u8) -> Node {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn new(min_size: u8) -> DecodingDict {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn new(min_size: u8) -> EncodingDict {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    pub fn new(r: R) -> WebpDecoder<R> {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn new() -> MacroBlock {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn new() -> BoolReader {$/;"	f
+new	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn new(r: R) -> VP8Decoder<R> {$/;"	f
+new_luma8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn new_luma8(w: u32, h: u32) -> DynamicImage {$/;"	f
+new_luma_a8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn new_luma_a8(w: u32, h: u32) -> DynamicImage {$/;"	f
+new_nonstrict	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn new_nonstrict(r: R) -> ImageResult<HDRAdapter<R>> {$/;"	f
+new_rgb8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn new_rgb8(w: u32, h: u32) -> DynamicImage {$/;"	f
+new_rgba8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn new_rgba8(w: u32, h: u32) -> DynamicImage {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    fn next(&mut self) -> Option<Frame> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn next(&mut self) -> Option<&'a mut [u8]> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn next(&mut self) -> Option<RLEInsn> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next(&mut self) -> Option<&'a P> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next(&mut self) -> Option<&'a mut P> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next(&mut self) -> Option<(u32, u32, &'a P)> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next(&mut self) -> Option<(u32, u32, &'a mut P)> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn next(&mut self) -> Option<(u32, u32, &'a mut I::Pixel)> {$/;"	f
+next	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn next(&mut self) -> Option<(u32, u32, I::Pixel)> {$/;"	f
+next_back	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next_back(&mut self) -> Option<&'a P> {$/;"	f
+next_back	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn next_back(&mut self) -> Option<&'a mut P> {$/;"	f
+next_code	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn next_code(&self) -> u16 {$/;"	f
+next_code	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn next_code(&self) -> usize {$/;"	f
+next_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn next_image(mut self) -> ImageResult<TIFFDecoder<R>> {$/;"	f
+noruncombine_test	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^fn noruncombine_test() {$/;"	f
+num_channels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn num_channels(&self) -> usize {$/;"	f
+num_components	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^pub fn num_components(c: ColorType) -> usize {$/;"	f
+open	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn open<P>(path: P) -> ImageResult<DynamicImage> where P: AsRef<Path> {$/;"	f
+open_impl	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^fn open_impl(path: &Path) -> ImageResult<DynamicImage> {$/;"	f
+overlay	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/mod.rs	/^pub fn overlay<I: GenericImage>(bottom: &mut I, top: &I, x: u32, y:u32) {$/;"	f
+pad_byte	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn pad_byte(&mut self) -> io::Result<()> {$/;"	f
+parse_dimensions_line	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn parse_dimensions_line<'a>(line: &Cow<'a, str>, strict: bool) -> ImageResult<(u32,u32)> {$/;"	f
+parse_space_separated_f32	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn parse_space_separated_f32(line: &str, vals: &mut [f32], name: &str) -> ImageResult<bool> {$/;"	f
+pixel_diffs	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn pixel_diffs<I, J, P>(left: &I, right: &J) -> Vec<((u32, u32, P), (u32, u32, P))>$/;"	f
+pixel_width	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn pixel_width(&self) -> usize { self.pixel_width }$/;"	f
+pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn pixels<'a>(&'a self) -> Pixels<'a, P> {$/;"	f
+pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn pixels(&self) -> Pixels<Self> {$/;"	f
+pixels_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn pixels_mut(&mut self) -> PixelsMut<P> {$/;"	f
+pixels_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn pixels_mut(&mut self) -> MutPixels<Self> {$/;"	f
+predict_4x4	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_4x4(ws: &mut [u8], stride: usize, modes: &[i8], resdata: &[i32]) {$/;"	f
+predict_bdcpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bdcpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bhdpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bhdpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bhepred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bhepred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bhupred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bhupred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bldpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bldpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_brdpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_brdpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bvepred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bvepred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bvlpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bvlpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_bvrpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_bvrpred(a: &mut [u8], x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_dcpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_dcpred(a: &mut [u8], size: usize, stride: usize, above: bool, left: bool) {$/;"	f
+predict_hpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_hpred(a: &mut [u8], size: usize, x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_tmpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_tmpred(a: &mut [u8], size: usize, x0: usize, y0: usize, stride: usize) {$/;"	f
+predict_vpred	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn predict_vpred(a: &mut [u8], size: usize, x0: usize, y0: usize, stride: usize) {$/;"	f
+push	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn push(&mut self, key: Option<Code>, value: u8) {$/;"	f
+push_node	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn push_node(&mut self, node: Node) {$/;"	f
+put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn put_pixel(&mut self, x: u32, y: u32, pixel: P) {$/;"	f
+put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn put_pixel(&mut self, x: u32, y: u32, pixel: P) {$/;"	f
+put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn put_pixel(&mut self, x: u32, y: u32, pixel: color::Rgba<u8>) {$/;"	f
+put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn put_pixel(&mut self, x: u32, y: u32, pixel: I::Pixel) {$/;"	f
+put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn put_pixel(&mut self, x: u32, y: u32, pixel: Self::Pixel);$/;"	f
+r	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    fn r(&self, byte_order: ByteOrder) -> SmartReader<io::Cursor<Vec<u8>>> {$/;"	f
+raw_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub unsafe fn raw_data(&self) -> *const u8 {$/;"	f
+raw_data_mut	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub unsafe fn raw_data_mut(&mut self) -> *mut u8 {$/;"	f
+raw_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn raw_len(&self) -> usize {$/;"	f
+raw_pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn raw_pixels(&self) -> Vec<u8> {$/;"	f
+read	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read(&self, data: u32) -> u8 {$/;"	f
+read	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn read(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	f
+read	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn read(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	f
+read_16_bit_pixel_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_16_bit_pixel_data(&mut self, bitfields: Option<&Bitfields>) -> ImageResult<Vec<u8>> {$/;"	f
+read_32_bit_pixel_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_32_bit_pixel_data(&mut self) -> ImageResult<Vec<u8>> {$/;"	f
+read_bitmap_core_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_bitmap_core_header(&mut self) ->ImageResult<()> {$/;"	f
+read_bitmap_info_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_bitmap_info_header(&mut self) -> ImageResult<()> {$/;"	f
+read_bitmasks	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_bitmasks(&mut self) -> ImageResult<()> {$/;"	f
+read_bits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn read_bits(&mut self, n: u8) -> io::Result<u16> {$/;"	f
+read_bits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn read_bits(&mut self, n: u8) -> io::Result<u16>;$/;"	f
+read_bool	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn read_bool(&mut self, probability: u8) -> u8 {$/;"	f
+read_byte	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn read_byte<R: BufRead>(r: &mut R) -> io::Result<u8> {$/;"	f
+read_coefficients	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_coefficients(&mut self,$/;"	f
+read_color_information	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_color_information(&mut self) -> ImageResult<()> {$/;"	f
+read_color_map	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_color_map(&mut self) -> ImageResult<()> {$/;"	f
+read_encoded_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_encoded_data(&mut self) -> ImageResult<Vec<u8>> {$/;"	f
+read_entries	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^fn read_entries<R: Read>(r: &mut R) -> ImageResult<Vec<DirEntry>> {$/;"	f
+read_entry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^fn read_entry<R: Read>(r: &mut R) -> ImageResult<DirEntry> {$/;"	f
+read_entry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn read_entry(&mut self) -> ImageResult<Option<(ifd::Tag, ifd::Entry)>> {$/;"	f
+read_file_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_file_header(&mut self) -> ImageResult<()> {$/;"	f
+read_flag	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn read_flag(&mut self) -> bool {$/;"	f
+read_frame	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_frame(&mut self) -> ImageResult<()> {$/;"	f
+read_frame_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_frame_header(&mut self) -> io::Result<()> {$/;"	f
+read_full_byte_pixel_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_full_byte_pixel_data(&mut self, format: FormatFullBytes) -> ImageResult<Vec<u8>> {$/;"	f
+read_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_header(&mut self) -> ImageResult<()> {$/;"	f
+read_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn read_header(&mut self) -> ImageResult<()> {$/;"	f
+read_ifd	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn read_ifd(&mut self) -> ImageResult<Directory> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult>;$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn read_image(&mut self) -> ImageResult<DecodingResult> {$/;"	f
+read_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_image(&mut self) -> ImageResult<image::DecodingResult> {$/;"	f
+read_image_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_image_data(&mut self) -> ImageResult<Vec<u8>> {$/;"	f
+read_image_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_image_data(&mut self) -> ImageResult<Vec<u8>> {$/;"	f
+read_image_hdr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn read_image_hdr(self) -> ImageResult<Vec<Rgb<f32>>> {$/;"	f
+read_image_id	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_image_id(&mut self) -> ImageResult<()> {$/;"	f
+read_image_ldr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn read_image_ldr(self) -> ImageResult<Vec<Rgb<u8>>> {$/;"	f
+read_image_native	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn read_image_native(mut self) -> ImageResult<Vec<RGBE8Pixel>> {$/;"	f
+read_image_transform	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn read_image_transform<T: Send, F: Send + Sync + Fn(RGBE8Pixel)-> T>(mut self, f: F) -> ImageResult<Vec<T>> {$/;"	f
+read_line_u8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn read_line_u8<R: BufRead>(r: &mut R) -> ::std::io::Result<Option<Vec<u8>>> {$/;"	f
+read_line_u8_test	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn read_line_u8_test() {$/;"	f
+read_literal	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn read_literal(&mut self, n: u8) -> u8 {$/;"	f
+read_long	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn read_long(&mut self) -> Result<u32, io::Error> {$/;"	f
+read_loop_filter_adjustments	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_loop_filter_adjustments(&mut self) {$/;"	f
+read_macroblock_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_macroblock_header(&mut self, mbx: usize) -> (bool, MacroBlock) {$/;"	f
+read_magnitude_and_sign	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn read_magnitude_and_sign(&mut self, n: u8) -> i32 {$/;"	f
+read_metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_metadata(&mut self) -> ImageResult<()> {$/;"	f
+read_metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_metadata(&mut self) -> ImageResult<()> {$/;"	f
+read_metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_metadata(&mut self) -> ImageResult<()> {$/;"	f
+read_metadata_in_ico_format	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    pub fn read_metadata_in_ico_format(&mut self) -> ImageResult<()> {$/;"	f
+read_offset	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn read_offset(&mut self) -> Result<[u8; 4], io::Error> {$/;"	f
+read_palette	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_palette(&mut self) -> ImageResult<()> {$/;"	f
+read_palettized_pixel_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_palettized_pixel_data(&mut self) -> ImageResult<Vec<u8>> {$/;"	f
+read_quantization_indices	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_quantization_indices(&mut self) {$/;"	f
+read_raw_file	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub fn read_raw_file<P: AsRef<Path>>(path: P) -> ::std::io::Result<Vec<Rgb<f32>>> {$/;"	f
+read_residual_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_residual_data(&mut self, mb: &MacroBlock, mbx: usize, p: usize) -> [i32; 384] {$/;"	f
+read_rgbe	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn read_rgbe<R: BufRead>(r: &mut R) -> io::Result<RGBE8Pixel> {$/;"	f
+read_riff_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_riff_header(&mut self) -> ImageResult<u32> {$/;"	f
+read_rle_data	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_rle_data(&mut self, image_type: ImageType) -> ImageResult<Vec<u8>> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn read_scanline(&mut self, _buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn read_scanline(&mut self, buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn read_scanline(&mut self, _: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn read_scanline<R: BufRead>(r: &mut R, buf: &mut [RGBE8Pixel]) -> ImageResult<()> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn read_scanline(&mut self, buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn read_scanline(&mut self, buf: &mut [u8]) -> ImageResult<u32>;$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn read_scanline(&mut self, _buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn read_scanline(&mut self, buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn read_scanline(&mut self, _buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn read_scanline(&mut self, _: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_scanline	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_scanline(&mut self, buf: &mut [u8]) -> ImageResult<u32> {$/;"	f
+read_segment_updates	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn read_segment_updates(&mut self) {$/;"	f
+read_short	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    pub fn read_short(&mut self) -> Result<u16, io::Error> {$/;"	f
+read_u16	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn read_u16(&mut self) -> Result<u16, io::Error> {$/;"	f
+read_u32	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn read_u32(&mut self) -> Result<u32, io::Error> {$/;"	f
+read_vp8_header	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn read_vp8_header(&mut self) -> ImageResult<()> {$/;"	f
+read_with_tree	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    pub fn read_with_tree(&mut self, tree: &[i8], probs: &[Prob], start: isize) -> i8 {$/;"	f
+reader	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    pub fn reader(&mut self) -> &mut R {$/;"	f
+reader_writer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn reader_writer() {$/;"	f
+real_height	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn real_height(&self) -> u16 {$/;"	f
+real_width	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn real_width(&self) -> u16 {$/;"	f
+reconstruct	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn reconstruct(&mut self, code: Option<Code>) -> io::Result<&[u8]> {$/;"	f
+relative_dist	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^    fn relative_dist(a: Rgb<f32>, b: Rgb<f32>) -> f32 {$/;"	f
+replace	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/mod.rs	/^pub fn replace<I: GenericImage>(bottom: &mut I, top: &I, x: u32, y:u32) {$/;"	f
+reset	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn reset(&mut self) {$/;"	f
+resize	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn resize(&self,$/;"	f
+resize	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn resize<I: GenericImage + 'static>(image: &I, nwidth: u32, nheight: u32,$/;"	f
+resize_exact	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn resize_exact(&self,$/;"	f
+rev_hpredict	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^fn rev_hpredict(image: DecodingResult, size: (u32, u32), color_type: ColorType) -> ImageResult<DecodingResult> {$/;"	f
+rev_hpredict_nsamp	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^fn rev_hpredict_nsamp<T>(mut image: Vec<T>,$/;"	f
+reverse_encoding	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn reverse_encoding(&mut self, pixels: &mut [u8]) {$/;"	f
+rgb_to_ycbcr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn rgb_to_ycbcr(r: u8, g: u8, b: u8) -> (u8, u8, u8) {$/;"	f
+rgbe8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^pub fn rgbe8(r: u8, g: u8, b: u8, e: u8) -> RGBE8Pixel {$/;"	f
+rl_marker	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn rl_marker(pix : RGBE8Pixel) -> Option<usize> {$/;"	f
+rle_compress	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^fn rle_compress(data: &[u8], rle: &mut Vec<u8>) {$/;"	f
+rotate180	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn rotate180(&self) -> DynamicImage {$/;"	f
+rotate180	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^pub fn rotate180<I: GenericImage + 'static>(image:  &I)$/;"	f
+rotate270	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn rotate270(&self) -> DynamicImage {$/;"	f
+rotate270	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^pub fn rotate270<I: GenericImage + 'static>(image:  &I)$/;"	f
+rotate90	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn rotate90(&self) -> DynamicImage {$/;"	f
+rotate90	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^pub fn rotate90<I: GenericImage + 'static>(image:  &I)$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/gif.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn row_len(&mut self) -> ImageResult<usize>;$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/png.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tga/decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/decoder.rs	/^    fn row_len(&mut self) -> ImageResult<usize> {$/;"	f
+row_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn row_len(&self) -> usize { self.row_len }$/;"	f
+rows	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn rows<'a>(&self, pixel_data: &'a mut Vec<u8>) -> RowIterator<'a> {$/;"	f
+runiterator_test	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^fn runiterator_test() {$/;"	f
+save	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn save<Q>(&self, path: Q) -> io::Result<()> where Q: AsRef<Path> {$/;"	f
+save	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn save<W: Write>(&self, w: &mut W, format: ImageFormat) -> ImageResult<()> {$/;"	f
+save_buffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^pub fn save_buffer<P>(path: P, buf: &[u8], width: u32, height: u32, color: color::ColorType)$/;"	f
+save_buffer_impl	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^fn save_buffer_impl(path: &Path, buf: &[u8], width: u32, height: u32, color: color::ColorType)$/;"	f
+search_and_insert	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn search_and_insert(&mut self, i: Option<Code>, c: u8) -> Option<Code> {$/;"	f
+search_initials	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/lzw.rs	/^    fn search_initials(&self, i: Code) -> Code {$/;"	f
+seek	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    fn seek(&mut self, pos: io::SeekFrom) -> io::Result<u64> {$/;"	f
+seek_to_start	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/decoder.rs	/^    fn seek_to_start<R: Read + Seek>(&self, r: &mut R) -> ImageResult<()> {$/;"	f
+set_1bit_pixel_run	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^fn set_1bit_pixel_run<'a, T: Iterator<Item=&'a u8>>(pixel_iter: &mut ChunksMut<u8>,$/;"	f
+set_4bit_pixel_run	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^fn set_4bit_pixel_run<'a, T: Iterator<Item=&'a u8>>(pixel_iter: &mut ChunksMut<u8>,$/;"	f
+set_8bit_pixel_run	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^fn set_8bit_pixel_run<'a, T: Iterator<Item=&'a u8>>(pixel_iter: &mut ChunksMut<u8>,$/;"	f
+set_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^        macro_rules! set_pixel {$/;"	d
+sinc	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^fn sinc(t: f32) -> f32 {$/;"	f
+size_hint	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+slice_buffer	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn slice_buffer() {$/;"	f
+split_at_first	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn split_at_first<'a>(s: &'a Cow<'a, str>, separator: &str) -> Option<(&'a str, &'a str)> {$/;"	f
+split_at_first_test	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^fn split_at_first_test() {$/;"	f
+sub_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn sub_image<'a>(&'a mut self, x: u32, y: u32, width: u32, height: u32)$/;"	f
+tags	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^macro_rules! tags {$/;"	d
+test_bitfield_len	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/bmp/decoder.rs	/^    fn test_bitfield_len() {$/;"	f
+test_dither	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/colorops.rs	/^    fn test_dither() {$/;"	f
+test_empty_file	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    fn test_empty_file() {$/;"	f
+test_flip_horizontal	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn test_flip_horizontal() {$/;"	f
+test_flip_vertical	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn test_flip_vertical() {$/;"	f
+test_get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn test_get_pixel() {$/;"	f
+test_get_screenshot	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^fn test_get_screenshot() {$/;"	f
+test_image_alpha_blending	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn test_image_alpha_blending() {$/;"	f
+test_image_in_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/mod.rs	/^    fn test_image_in_image() {$/;"	f
+test_image_in_image_outside_of_bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/mod.rs	/^    fn test_image_in_image_outside_of_bounds() {$/;"	f
+test_in_bounds	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn test_in_bounds() {$/;"	f
+test_issue_186	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^    fn test_issue_186() {$/;"	f
+test_mut_iter	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn test_mut_iter() {$/;"	f
+test_rotate180	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn test_rotate180() {$/;"	f
+test_rotate270	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn test_rotate270() {$/;"	f
+test_rotate90	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/affine.rs	/^    fn test_rotate90() {$/;"	f
+to_hdr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn to_hdr(self) -> Rgb<f32> {$/;"	f
+to_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    pub fn to_image(&self) -> ImageBuffer<I::Pixel, Vec<<I::Pixel as Pixel>::Subpixel>> {$/;"	f
+to_ldr	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn to_ldr<T: Primitive + Zero>(self) -> Rgb<T> {$/;"	f
+to_ldr_scale_gamma	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn to_ldr_scale_gamma<T: Primitive + Zero>(self, scale: f32, gamma: f32) -> Rgb<T> {$/;"	f
+to_luma	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn to_luma(&self) -> Luma<Self::Subpixel>;$/;"	f
+to_luma	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn to_luma(&self) -> Luma<T> {$/;"	f
+to_luma	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn to_luma(&self) -> GrayImage {$/;"	f
+to_luma_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn to_luma_alpha(&self) -> LumaA<Self::Subpixel>;$/;"	f
+to_luma_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn to_luma_alpha(&self) -> LumaA<T> {$/;"	f
+to_luma_alpha	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn to_luma_alpha(&self) -> GrayAlphaImage {$/;"	f
+to_rgb	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn to_rgb(&self) -> Rgb<Self::Subpixel>;$/;"	f
+to_rgb	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn to_rgb(&self) -> Rgb<T> {$/;"	f
+to_rgb	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn to_rgb(&self) -> RgbImage {$/;"	f
+to_rgba	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    fn to_rgba(&self) -> Rgba<Self::Subpixel>;$/;"	f
+to_rgba	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/color.rs	/^    fn to_rgba(&self) -> Rgba<T> {$/;"	f
+to_rgba	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn to_rgba(&self) -> RgbaImage {$/;"	f
+to_rgbe8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^pub fn to_rgbe8(pix: Rgb<f32>) -> RGBE8Pixel {$/;"	f
+to_rgbe8_test	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^fn to_rgbe8_test() {$/;"	f
+top	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/animation.rs	/^    pub fn top(&self) -> u32 {$/;"	f
+top_pixels	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn top_pixels(a: &[u8], x0: usize, y0: usize, stride: usize) -> (u8, u8, u8, u8, u8, u8, u8, u8) {$/;"	f
+topleft_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^fn topleft_pixel(a: &[u8], x0: usize, y0: usize, stride: usize) -> u8 {$/;"	f
+triangle_kernel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn triangle_kernel(x: f32) -> f32 {$/;"	f
+unsafe_get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    unsafe fn unsafe_get_pixel(&self, x: u32, y: u32) -> P {$/;"	f
+unsafe_get_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    unsafe fn unsafe_get_pixel(&self, x: u32, y: u32) -> Self::Pixel {$/;"	f
+unsafe_put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    unsafe fn unsafe_put_pixel(&mut self, x: u32, y: u32, pixel: P) {$/;"	f
+unsafe_put_pixel	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    unsafe fn unsafe_put_pixel(&mut self, x: u32, y: u32, pixel: Self::Pixel) {$/;"	f
+unsharpen	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/dynimage.rs	/^    pub fn unsharpen(&self, sigma: f32, threshold: i32) -> DynamicImage {$/;"	f
+unsharpen	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^pub fn unsharpen<I, P, S>(image: &I, sigma: f32, threshold: i32)$/;"	f
+update_header_info	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    fn update_header_info<'a>(&mut self, line: &Cow<'a, str>, strict: bool) -> ImageResult<()> {$/;"	f
+update_token_probabilities	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/webp/vp8.rs	/^    fn update_token_probabilities(&mut self) {$/;"	f
+val	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/ifd.rs	/^    pub fn val<R: Read + Seek>(&self, decoder: &mut super::TIFFDecoder<R>)$/;"	f
+value_at	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^fn value_at(s: &[u8], index: usize) -> u8 {$/;"	f
+vertical_sample	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/imageops/sample.rs	/^fn vertical_sample<I, P, S>(image: &I, new_height: u32,$/;"	f
+width	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/buffer.rs	/^    pub fn width(&self) -> u32 {$/;"	f
+width	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/image.rs	/^    fn width(&self) -> u32 {$/;"	f
+width	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/screenshot-0.0.7/src/lib.rs	/^	pub fn width(&self) -> usize { self.width }$/;"	f
+with_strictness	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_decoder.rs	/^    pub fn with_strictness(mut reader: R, strict: bool) -> ImageResult<HDRDecoder<R>> {  $/;"	f
+wrap	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/stream.rs	/^    pub fn wrap(reader: R, byte_order: ByteOrder) -> SmartReader<R> {$/;"	f
+wrapping_add	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn wrapping_add(&self, other: Self) -> Self {$/;"	f
+wrapping_add	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/tiff/decoder/mod.rs	/^    fn wrapping_add(&self, other: Self) -> Self;$/;"	f
+write	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	f
+write_bits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn write_bits(&mut self, bits: u16, size: u8) -> io::Result<()> {$/;"	f
+write_bits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn write_bits(&mut self, v: u16, n: u8) -> io::Result<()> {$/;"	f
+write_bits	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/utils/bitstream.rs	/^    fn write_bits(&mut self, v: u16, n: u8) -> io::Result<()>;$/;"	f
+write_block	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn write_block($/;"	f
+write_direntry	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^fn write_direntry<W: Write>(w: &mut W, width: u32, height: u32,$/;"	f
+write_icondir	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^fn write_icondir<W: Write>(w: &mut W, num_images: u16) -> io::Result<()> {$/;"	f
+write_image	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^    fn write_image($/;"	f
+write_magic_number	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^    fn write_magic_number(&mut self) -> io::Result<()> {$/;"	f
+write_metadata	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ppm/encoder.rs	/^    fn write_metadata(&mut self, width: u32, height: u32, pixel_type: color::ColorType) -> io::Result<()> {$/;"	f
+write_rgbe8	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/hdr/hdr_encoder.rs	/^fn write_rgbe8<W: Write>(w: &mut W, v: RGBE8Pixel) -> Result<()> {$/;"	f
+write_segment	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/jpeg/encoder.rs	/^    fn write_segment(&mut self, marker: u8, data: Option<Vec<u8>>) -> io::Result<()> {$/;"	f
+write_width_or_height	/Users/koji/.multirust/toolchains/nightly/cargo/registry/src/github.com-1ecc6299db9ec823/image-0.10.3/src/ico/encoder.rs	/^fn write_width_or_height<W: Write>(w: &mut W, value: u32) -> io::Result<()> {$/;"	f

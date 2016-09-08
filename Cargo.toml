@@ -1,0 +1,8 @@
+[package]
+name = "gifzo_rust"
+version = "0.1.0"
+authors = ["Koji Ota"]
+
+[dependencies]
+image = "0.10.3"
+screenshot = "0.0.7"
