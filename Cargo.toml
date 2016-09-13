@@ -4,4 +4,5 @@ version = "0.1.0"
 authors = ["Koji Ota"]
 
 [dependencies]
-notify = "^2.5.0"
+multipart = "*"
+hyper = "0.8"
