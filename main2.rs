@@ -1,8 +1,6 @@
 extern crate multipart;
 extern crate hyper;
 extern crate url;
-extern crate mime;
-extern crate mime_guess;
 // extern crate notify;
 //
 use multipart::client;
@@ -11,8 +9,6 @@ use hyper::client::request;
 // use multipart::client::HttpStream::Request;
 use std::path::Path;
 use url::Url;
-use mime::Mime;
-use std::fs::File;
 // use std::error::Error;
 // use std::io::prelude::*;
 // use std::process::{Command, Stdio};
@@ -26,38 +22,23 @@ fn main() {
     // println!("monitor: {}", monitor_gif());
     // kill_licecap();
     post_gif();
-    // post_gif2();
 }
 
 fn post_gif() {
     let url = hyper::Url::parse("http://localhost:3000").unwrap();
     let request = request::Request::new(hyper::method::Method::Post, url).unwrap();
     let mut multipart = client::Multipart::from_request(request).unwrap();
-    let filepath = Path::new("lorem_ipsum.txt");
-    let filepath2 = Path::new("lorem_ipsum.txt");
-    let filepath3 = Path::new("main2.rs");
-    let filepath4 = Path::new("giphy.gif");
-    println!("{:?}", mime_guess::guess_mime_type(filepath3));
-    println!("{:?}",
-             filepath3.file_name().and_then(|filename| filename.to_str()));
-    // let filepath = Path::new("./src/main2.rs");
-    let mut file = File::open(filepath).unwrap();
-    let name: &str = "main3.rs";
-    let file_name: Option<&str> = Some("lorem_ipsum.txt");
-    // let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
-    let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
-    println!("{:?}", mime);
-    // multipart.write_stream(name, &mut file, file_name, mime);
-    // let re = multipart.write_stream(name, &mut file, file_name, mime);
-    multipart.write_file("main2.rs", filepath3);
-    // let re = multipart.write_file("main4.rs", filepath);
+    // let mut multipart = Multipart::new();
+    // let mut multipart = multipart.add_file("giphy.gif", Path::new("src/giphy.gif"));
+    // let filepath1 = Path::new("src/giphy.gif");
+    // assert_eq!(filepath1.parent().unwrap().parent().unwrap(),
+    //            Path::new("src"));
+    // let filepath = Path::new("src/giphy.gif");
+    let filepath = Path::new("src/main.rs");
+    // let filepath = Path::new("/Users/200246/development/Rust/gifzo_rust/src/giphy.gif");
+    multipart.write_file("content", filepath);
     multipart.write_text("name", filepath.file_name().unwrap().to_str().unwrap());
-    // match re {
-    //     Ok(_) => println!("OKo"),
-    //     Err(_) => println!("err"),
-    // }
     // let mut resp = try!(multipart.send());
-    // multipart.send();
 
     // let result = multipart.client_request(&hyper::client::Client::new(), "http://localhost:3000/");
     // match result {
@@ -67,15 +48,6 @@ fn post_gif() {
     println!("hoge");
     // println!("{}" result);
     // let client = hyper::client::Client::new().expect("Failed to create a Client");
-}
-
-fn post_gif2() {
-    let url = hyper::Url::parse("http://localhost:3000").unwrap();
-    let mut multipart = multipart::client::lazy::Multipart::new();
-    multipart.add_text("gifname", "hogehogehgoe");
-    multipart.add_file("main2.rs", Path::new("./src/main2.rs"));
-    let result = multipart.client_request(&hyper::client::Client::new(), url);
-    // let client = hyper::client::Client::new().expect("Failed to create a Client")
 }
 
 // fn exec_licecap() {

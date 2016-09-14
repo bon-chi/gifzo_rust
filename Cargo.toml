@@ -4,5 +4,10 @@ version = "0.1.0"
 authors = ["Koji Ota"]
 
 [dependencies]
-multipart = "*"
-hyper = "0.8"
+mime = "0.2.2"
+multipart = "0.5"
+hyper = "0.7"
+mime_guess = "*"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
