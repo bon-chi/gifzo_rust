@@ -4,6 +4,7 @@ extern crate url;
 extern crate mime;
 extern crate mime_guess;
 extern crate notify;
+extern crate clipboard;
 //
 use multipart::client;
 use hyper::client::request;
@@ -18,6 +19,7 @@ use std::fs::File;
 use std::process::{Command, Stdio};
 use notify::{RecommendedWatcher, Watcher};
 use std::sync::mpsc::channel;
+use clipboard::ClipboardContext;
 
 fn main() {
     exec_licecap();
@@ -218,6 +220,7 @@ fn kill_licecap() {
 
 fn open_browser(filename: String) {
     let address = format!("{}{}", "http://localhost:3000/gifs/", filename);
+    let address2 = format!("{}{}", "http://localhost:3000/gifs/", filename);
     println!("address is === {}", address);
     let output = Command::new("open")
                      .arg(address)
@@ -225,4 +228,7 @@ fn open_browser(filename: String) {
                      .expect("failde to execute process");
     println!("opne browser: {}", String::from_utf8_lossy(&output.stdout));
     println!("error{}", String::from_utf8_lossy(&output.stderr));
+
+    let mut ctx = ClipboardContext::new().unwrap();
+    ctx.set_contents(address2);
 }

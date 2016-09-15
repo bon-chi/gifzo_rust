@@ -9,6 +9,7 @@ mime = "0.2.2"
 multipart = { path = "multipart", version = "0.5" }
 hyper = "0.7"
 mime_guess = "*"
+clipboard = "0.1.2"
 
 [dependencies.url]
 git = "https://github.com/servo/rust-url"
