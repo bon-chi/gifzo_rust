@@ -41,17 +41,22 @@ fn post_gif() {
     println!("{:?}",
              filepath3.file_name().and_then(|filename| filename.to_str()));
     // let filepath = Path::new("./src/main2.rs");
-    let mut file = File::open(filepath).unwrap();
+    let mut file = File::open(filepath4).unwrap();
     let name: &str = "main3.rs";
     let file_name: Option<&str> = Some("lorem_ipsum.txt");
-    // let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
+    let file_name4: Option<&str> = Some("giphy.gif");
+    let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
     let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
     println!("{:?}", mime);
     // multipart.write_stream(name, &mut file, file_name, mime);
     // let re = multipart.write_stream(name, &mut file, file_name, mime);
-    multipart.write_file("main2.rs", filepath3);
+    // multipart.write_file("main2.rs", filepath);
     // let re = multipart.write_file("main4.rs", filepath);
-    multipart.write_text("name", filepath.file_name().unwrap().to_str().unwrap());
+    multipart.write_text("text_name",
+                         filepath4.file_name().unwrap().to_str().unwrap());
+    // multipart.write_file("file", filepath);
+    multipart.write_stream("file", &mut file, file_name4, mime);
+    multipart.send();
     // match re {
     //     Ok(_) => println!("OKo"),
     //     Err(_) => println!("err"),

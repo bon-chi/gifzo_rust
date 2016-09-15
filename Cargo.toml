@@ -5,7 +5,7 @@ authors = ["Koji Ota"]
 
 [dependencies]
 mime = "0.2.2"
-multipart = "0.5"
+multipart = { path = "multipart", version = "0.5" }
 hyper = "0.7"
 mime_guess = "*"
 
