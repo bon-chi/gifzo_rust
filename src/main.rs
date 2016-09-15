@@ -23,26 +23,34 @@ fn main() {
     exec_licecap();
     // let pid = get_pid();
     // println!("licecap pid is{}", pid);
-    let filename = monitor_gif();
+    let (filename, filepath_str) = monitor_gif();
     // let s_slice: &str = filename.as_str();
     // println!("monitor: {}", filename);
     kill_licecap();
-    post_gif(filename);
+    println!("filename ==== {}", filename);
+    let filename2 = filename.clone();
+    post_gif(filename, filepath_str);
     // post_gif2();
+    open_browser(filename2);
 }
 
 // fn post_gif() {
-fn post_gif(filename: String) {
+fn post_gif(filename: String, filepath_str: String) {
+    println!("filepath_str == {}", filepath_str);
     let url = hyper::Url::parse("http://localhost:3000").unwrap();
     let request = request::Request::new(hyper::method::Method::Post, url).unwrap();
     let mut multipart = client::Multipart::from_request(request).unwrap();
     let filepath = Path::new("lorem_ipsum.txt");
     let filepath2 = Path::new("lorem_ipsum.txt");
     let filepath3 = Path::new("main2.rs");
-    let filepath4 = Path::new("giphy.gif");
-    println!("{:?}", mime_guess::guess_mime_type(filepath3));
-    println!("{:?}",
-             filepath3.file_name().and_then(|filename| filename.to_str()));
+    // let filepath4 = Path::new("giphy.gif");
+    // let s_slice: &str = filename.as_str();
+    // let filepath_str: &str = format!("{}{}", "~/Desktop/", s_slice);
+    let filepath_str: &str = filepath_str.as_str();
+    let filepath4 = Path::new(filepath_str);
+    // println!("{:?}", mime_guess::guess_mime_type(filepath3));
+    // println!("{:?}",
+    //          filepath3.file_name().and_then(|filename| filename.to_str()));
     // let filepath = Path::new("./src/main2.rs");
     let mut file = File::open(filepath4).unwrap();
     let name: &str = "main3.rs";
@@ -51,7 +59,7 @@ fn post_gif(filename: String) {
     let s_slice: &str = filename.as_str();
     let file_name4: Option<&str> = Some(s_slice);
     let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
-    let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
+    // let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
     println!("{:?}", mime);
     // multipart.write_stream(name, &mut file, file_name, mime);
     // let re = multipart.write_stream(name, &mut file, file_name, mime);
@@ -59,8 +67,8 @@ fn post_gif(filename: String) {
     // let re = multipart.write_file("main4.rs", filepath);
     multipart.write_text("text_name",
                          filepath4.file_name().unwrap().to_str().unwrap());
-    // multipart.write_file("file", filepath);
-    multipart.write_stream("file", &mut file, file_name4, mime);
+    multipart.write_file("file", filepath4);
+    // multipart.write_stream("file", &mut file, file_name4, mime);
     multipart.send();
     // match re {
     //     Ok(_) => println!("OKo"),
@@ -90,10 +98,10 @@ fn post_gif2() {
 
 fn exec_licecap() {
     let output = Command::new("open")
-        .arg("-a")
-        .arg("licecap")
-        .output()
-        .expect("failde to execute process");
+                     .arg("-a")
+                     .arg("licecap")
+                     .output()
+                     .expect("failde to execute process");
     println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
     println!("{}", String::from_utf8_lossy(&output.stderr));
 }
@@ -166,7 +174,7 @@ fn exec_licecap() {
 //         Ok(_) => s,
 //     };
 // }
-fn monitor_gif() -> String {
+fn monitor_gif() -> (String, String) {
     let (tx, rx) = channel();
     let mut w: Result<RecommendedWatcher, notify::Error> = Watcher::new(tx);
 
@@ -177,7 +185,14 @@ fn monitor_gif() -> String {
                 match rx.recv() {
                     Ok(notify::Event { path: Some(path), op: Ok(op) }) => {
                         if op.contains(notify::op::WRITE) && op.contains(notify::op::CHMOD) {
-                            return path.as_os_str().to_str().unwrap().to_string();
+                            // return path.as_os_str().to_str().unwrap().to_string();
+                            return (path.file_name()
+                                        .unwrap()
+                                        .to_os_string()
+                                        .to_str()
+                                        .unwrap()
+                                        .to_string(),
+                                    path.as_os_str().to_str().unwrap().to_string());
                         }
                         println!("{:?} {:?}", op, path)
                     }
@@ -189,14 +204,25 @@ fn monitor_gif() -> String {
         Err(_) => println!("Error"),
 
     }
-    return String::from("finish");
+    return (String::from("finish"), String::from("finish"));
 }
 
 fn kill_licecap() {
     let output = Command::new("killall")
-        .arg("licecap")
-        .output()
-        .expect("failde to execute process");
+                     .arg("licecap")
+                     .output()
+                     .expect("failde to execute process");
     println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
+    println!("error{}", String::from_utf8_lossy(&output.stderr));
+}
+
+fn open_browser(filename: String) {
+    let address = format!("{}{}", "http://localhost:3000/gifs/", filename);
+    println!("address is === {}", address);
+    let output = Command::new("open")
+                     .arg(address)
+                     .output()
+                     .expect("failde to execute process");
+    println!("opne browser: {}", String::from_utf8_lossy(&output.stdout));
     println!("error{}", String::from_utf8_lossy(&output.stderr));
 }
