@@ -3,7 +3,7 @@ extern crate hyper;
 extern crate url;
 extern crate mime;
 extern crate mime_guess;
-// extern crate notify;
+extern crate notify;
 //
 use multipart::client;
 use hyper::client::request;
@@ -15,21 +15,24 @@ use mime::Mime;
 use std::fs::File;
 // use std::error::Error;
 // use std::io::prelude::*;
-// use std::process::{Command, Stdio};
-// use notify::{RecommendedWatcher, Watcher};
-// use std::sync::mpsc::channel;
+use std::process::{Command, Stdio};
+use notify::{RecommendedWatcher, Watcher};
+use std::sync::mpsc::channel;
 
 fn main() {
-    // exec_licecap();
+    exec_licecap();
     // let pid = get_pid();
     // println!("licecap pid is{}", pid);
-    // println!("monitor: {}", monitor_gif());
-    // kill_licecap();
-    post_gif();
+    let filename = monitor_gif();
+    // let s_slice: &str = filename.as_str();
+    // println!("monitor: {}", filename);
+    kill_licecap();
+    post_gif(filename);
     // post_gif2();
 }
 
-fn post_gif() {
+// fn post_gif() {
+fn post_gif(filename: String) {
     let url = hyper::Url::parse("http://localhost:3000").unwrap();
     let request = request::Request::new(hyper::method::Method::Post, url).unwrap();
     let mut multipart = client::Multipart::from_request(request).unwrap();
@@ -44,7 +47,9 @@ fn post_gif() {
     let mut file = File::open(filepath4).unwrap();
     let name: &str = "main3.rs";
     let file_name: Option<&str> = Some("lorem_ipsum.txt");
-    let file_name4: Option<&str> = Some("giphy.gif");
+    // let file_name4: Option<&str> = Some("giphy.gif");
+    let s_slice: &str = filename.as_str();
+    let file_name4: Option<&str> = Some(s_slice);
     let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
     let mime: Option<hyper::mime::Mime> = Some("text/plain".parse().unwrap());
     println!("{:?}", mime);
@@ -83,16 +88,16 @@ fn post_gif2() {
     // let client = hyper::client::Client::new().expect("Failed to create a Client")
 }
 
-// fn exec_licecap() {
-//     let output = Command::new("open")
-//                      .arg("-a")
-//                      .arg("licecap")
-//                      .output()
-//                      .expect("failde to execute process");
-//     println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
-//     println!("{}", String::from_utf8_lossy(&output.stderr));
-// }
-//
+fn exec_licecap() {
+    let output = Command::new("open")
+        .arg("-a")
+        .arg("licecap")
+        .output()
+        .expect("failde to execute process");
+    println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
+    println!("{}", String::from_utf8_lossy(&output.stderr));
+}
+
 // fn get_pid() -> String {
 //     let ps_process = Command::new("ps")
 //                          .arg("aux")
@@ -161,37 +166,37 @@ fn post_gif2() {
 //         Ok(_) => s,
 //     };
 // }
-// fn monitor_gif() -> String {
-//     let (tx, rx) = channel();
-//     let mut w: Result<RecommendedWatcher, notify::Error> = Watcher::new(tx);
-//
-//     match w {
-//         Ok(mut watcher) => {
-//             watcher.watch("/Users/koji/Desktop");
-//             loop {
-//                 match rx.recv() {
-//                     Ok(notify::Event{path: Some(path), op: Ok(op)}) => {
-//                         if op.contains(notify::op::WRITE) && op.contains(notify::op::CHMOD) {
-//                             return path.as_os_str().to_str().unwrap().to_string();
-//                         }
-//                         println!("{:?} {:?}", op, path)
-//                     }
-//                     Ok(event) => println!("broken event: {:?}", event),
-//                     _ => println!("Recv."),
-//                 }
-//             }
-//         }
-//         Err(_) => println!("Error"),
-//
-//     }
-//     return String::from("finish");
-// }
-//
-// fn kill_licecap() {
-//     let output = Command::new("killall")
-//                      .arg("licecap")
-//                      .output()
-//                      .expect("failde to execute process");
-//     println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
-//     println!("error{}", String::from_utf8_lossy(&output.stderr));
-// }
+fn monitor_gif() -> String {
+    let (tx, rx) = channel();
+    let mut w: Result<RecommendedWatcher, notify::Error> = Watcher::new(tx);
+
+    match w {
+        Ok(mut watcher) => {
+            watcher.watch("/Users/koji/Desktop");
+            loop {
+                match rx.recv() {
+                    Ok(notify::Event { path: Some(path), op: Ok(op) }) => {
+                        if op.contains(notify::op::WRITE) && op.contains(notify::op::CHMOD) {
+                            return path.as_os_str().to_str().unwrap().to_string();
+                        }
+                        println!("{:?} {:?}", op, path)
+                    }
+                    Ok(event) => println!("broken event: {:?}", event),
+                    _ => println!("Recv."),
+                }
+            }
+        }
+        Err(_) => println!("Error"),
+
+    }
+    return String::from("finish");
+}
+
+fn kill_licecap() {
+    let output = Command::new("killall")
+        .arg("licecap")
+        .output()
+        .expect("failde to execute process");
+    println!("exec licecap: {}", String::from_utf8_lossy(&output.stdout));
+    println!("error{}", String::from_utf8_lossy(&output.stderr));
+}

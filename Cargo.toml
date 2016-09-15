@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Koji Ota"]
 
 [dependencies]
+notify = "*"
 mime = "0.2.2"
 multipart = { path = "multipart", version = "0.5" }
 hyper = "0.7"
